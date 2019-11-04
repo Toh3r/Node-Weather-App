@@ -65,3 +65,14 @@ button:hover {
   box-shadow: 0px 5px 5px #333333;
   transform: translateY(-1px);
 }
+
+img {
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px #333333;
+}
+
+img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 4px #333333;
+}
