@@ -14,7 +14,7 @@ weatherForm.addEventListener('submit', e => {
   messageTwo.textContent = '';
 
   // API url
-  const url = `http://localhost:3000/weather?address=${location}`;
+  const url = `/weather?address=${location}`;
 
   // HTTP req in browser
   fetch(url).then(res => {
