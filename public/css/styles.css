@@ -1,0 +1,67 @@
+body {
+  color: #333333;
+  font-family: 'McLaren', cursive;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+.nodejs {
+  width: 250px;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+input[type='text'] {
+  font-family: 'McLaren', cursive;
+  font-size: 1.2rem;
+  border: 2px solid gray;
+  border-radius: 6px;
+  color: whitesmoke;
+  background: #333333;
+}
+
+button {
+  margin-top: 0.5em;
+  font-family: 'McLaren', cursive;
+  font-size: 1.2rem;
+  border: 2px solid gray;
+  border-radius: 6px;
+  color: whitesmoke;
+  background: #333333;
+}
+
+button:hover {
+  box-shadow: 0px 5px 5px #333333;
+  transform: translateY(-1px);
+}
