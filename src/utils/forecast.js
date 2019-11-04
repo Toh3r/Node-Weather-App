@@ -11,7 +11,10 @@ const forecast = (lat, long, callback) => {
     } else {
       callback(
         undefined,
-        `${body.daily.data[0].summary} Temperature: ${body.currently.temperature}. ${body.currently.precipProbability}% chance of rain.`
+        `${body.daily.data[0].summary} 
+        Temperatures between ${body.daily.data[0].temperatureMin} and ${body.daily.data[0].temperatureMax}.
+        Current temperature: ${body.currently.temperature}. 
+        ${body.daily.data[0].precipProbability}% chance of rain today.`
       );
     }
   });
